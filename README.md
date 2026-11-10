@@ -5,19 +5,19 @@ This project addresses the issue of failed scheduled financial reports for Merid
 
 ## How to Run
 1. **Prerequisites**:
-   - Python 3.8+
-   - Install required packages (if any).
+   - Java 21+
+   - Maven 3.9+
 
 2. **Steps**:
    - Clone the repository.
    - Navigate to the project directory.
-   - Run the script:
+   - Run the application:
      ```bash
-     python starter_kit/report_utils.py
+     mvn spring-boot:run
      ```
 
 3. **Output**:
-   - A list of unresolved runs and retry actions will be printed to the console.
+   - A list of failed jobs will be printed to the console.
 
 ## Known Limitations
 1. Assumes `report_jobs.json` is the only input dataset.
